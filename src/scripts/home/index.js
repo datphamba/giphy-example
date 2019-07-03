@@ -63,7 +63,7 @@ export default class HomePage extends React.Component {
       fetch(
         `https://api.giphy.com/v1/gifs/trending?api_key=PcjmiLw5b2yfws6iD47n1uHDbRPkSD0A&limit=20&offset=${
           this.state.offset
-        }&rating=G`
+        }&rating=G`,  {mode: 'cors'}
       )
         .then(response => response.json())
         .then(response => {
