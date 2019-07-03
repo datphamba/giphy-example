@@ -83,7 +83,7 @@ export default class HomePage extends React.Component {
             }
           }
         });
-    }, 1000);
+    }, 2000);
   }
 
   render() {

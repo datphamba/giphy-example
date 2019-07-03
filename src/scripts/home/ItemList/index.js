@@ -19,8 +19,6 @@ export default class ItemListComponent extends React.Component {
             <img
               src={item.images.preview_gif.url}
               alt={item.slug}
-              width={280}
-              height={280}
             />
             <p>{item.title}</p>
           </div>
